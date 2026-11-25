@@ -1,8 +1,6 @@
-yaml
 services:
   - type: web
     name: neo-ai-os
     env: static
     buildCommand: ""
     staticPublishPath: .
-    pullRequestPreviewsEnabled: true
